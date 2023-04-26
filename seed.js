@@ -1,8 +1,8 @@
 require('dotenv').config();
-require('./database');
+require('./config/database');
 
-const Category = require('../models/category');
-const Item = require('../models/item');
+const Category = require('./models/category');
+const Item = require('./models/item');
 
 (async function() {
 
